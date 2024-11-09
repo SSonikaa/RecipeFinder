@@ -12,7 +12,7 @@ const Search = ({ setSearchedQuery }) => {
         <Grid column={2} textAlign="center" className='search-box'>
             <Grid.Column>
                 <h2 className='search-heading'>
-                    Search Recipes with <span style={{ color: '#2185D0' }}>Our Recipe</span>
+                    Search Recipes 
                 </h2>
                 <h4>Input Recipes seperated by comma</h4>
                 <Form onSubmit={onFormSubmit}>
